@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    background-color: #E6E6FA;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(91,65,187,1) 31%, rgba(0,212,255,1) 100%);
+    width: 100%;
+}
+
+.HeaderInfo {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    width:100%;
+    justify-content: center;
+}
+
+
+.Title h1 {
+    font-size: 30px;
+    text-shadow: -7px 40px 2px rgba(255,162,39,0), -7px 40px 2px rgba(255,162,39,0);
+    color: #f8f5f5;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Title h3 {
+   
+    font-size: 25px;
+    text-shadow: -7px 40px 2px rgba(255,162,39,0), -7px 40px 2px rgba(255,162,39,0);
+    color: #FFA227;
+    font-family: sans-serif;
+    
+}
+
+/* Navigation Styles */
+nav.links {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(52,9,121,1) 28%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+   
+}
+
+nav.links a {
+    margin: 0 15px; 
+    color: #f3f3f3;
+    text-decoration: none; /* Removes underline from links */
+}
+
+nav.links a:hover {
+    color: #0f5aaf;
+}
