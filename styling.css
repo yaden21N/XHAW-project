@@ -68,3 +68,156 @@ nav.links a {
 nav.links a:hover {
     color: #0f5aaf;
 }
+
+.pageTitle {
+    display: flex;
+    color: #1c1818;
+    font-size: 20px;
+    font-family: Arial;
+    margin: 5px 0; 
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Background Image and Text Styles */
+.BackgroundImage {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 18%;
+    margin-right: 16%;
+    position: relative;
+    padding: 20px;
+    -webkit-box-shadow: 8px 5px 15px 5px #000000; 
+    box-shadow: 8px 5px 15px 5px #000000;
+    text-align: center; 
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(91,65,187,1) 31%, rgba(0,212,255,1) 100%);
+
+}
+
+
+
+.BackgroundImage img {
+    width: 100%;
+    height: auto;
+    display: block;
+  
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(91,65,187,1) 31%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+  }
+  
+  .BackgroundImage:hover .overlay {
+    height: 100%;
+  }
+  
+
+.imageMessage{
+    width: 75%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-top: 15px;
+    height:300px;
+    
+    
+   
+    
+}
+
+.objectives{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 16%, rgba(91,65,187,1) 31%, rgba(0,212,255,1) 100%);
+   padding:5%;
+   justify-content: space-evenly;
+}
+
+.obj{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    
+}
+
+#logo{
+    width: 100px;
+    margin-left: 40%;
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+#logo:hover {
+    transform: scale(1.4); /* Enlarges the image to 120% of its original size */
+}
+
+#text{
+    color:#E6E6FA;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.About{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    height:fit-content;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+#info{
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+#learningImage{
+    width:500px;
+    padding: 10%;
+    margin-top: 10px;
+    margin-right: 15px
+}
+
+h1{
+    text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px, 2px 2px 2px rgba(206,89,55,0);
+}
+
+.footer{
+    background-color: #393e46;
+    color: #E6E6FA;
+    height: 30px;
+    margin: ;
+}
+
+button{
+    height:40px;
+    font-size: 18px;
+    background-color: #00bbf0;
+    font-weight: 500;
+    margin-left: 30%;
+    margin-top: 1%;
+   
+}
