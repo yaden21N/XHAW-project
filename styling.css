@@ -205,13 +205,15 @@ h1{
     text-shadow: #FFFCA8 2px 2px 0px, #9C9C9C 4px 4px 0px, 2px 2px 2px rgba(206,89,55,0);
 }
 
-.footer{
+footer{
     background-color: #393e46;
     color: #E6E6FA;
     height: 30px;
-    margin: ;
+    
 }
-
+.footerText{
+    margin-left: 25%;
+}
 button{
     height:40px;
     font-size: 18px;
