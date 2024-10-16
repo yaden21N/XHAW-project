@@ -223,3 +223,31 @@ button{
     margin-top: 1%;
    
 }
+
+.highlight {
+    background-color: #E1F5FE;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.imgSlider{
+    margin-left: 175px;
+     width: 70%;
+     height: 300px;
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     
+ }
+ 
+ .imgSlider img{
+     width: 8%;
+     height: 100%;
+     object-fit: cover;
+     border-radius: 10px;
+     transition: all ease-in-out 0.5s;
+ }
+ 
+ .imgSlider img:hover{
+     width: 45%;
+ }
