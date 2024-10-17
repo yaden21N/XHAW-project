@@ -238,6 +238,8 @@ button{
     margin-left: 11%;
 }
 
+
+
 #courseInfo{
     color: #f3f3f3;
     font-family: sans-serif;
@@ -311,5 +313,62 @@ button{
     font-family: 'Arial', sans-serif;
 }
 
+.courseSelection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10%;
+    
+}
 
+
+
+#course{
+    margin:15%;
+    margin-left: 4%;
+    font-size: 20px;
+    
+}
+
+.courseContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/education-background.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 80%;
+    height: 650px;
+    margin-left: 11%;
+    
+}
+
+button{
+    margin-left: 45%;
+   margin-top: 2%;
+}
  
+h3{
+    margin-left: 5%;
+}
+
+#courseForm{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 30%; /* Adjust the width as per your requirement */
+    padding: 5px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+#formInput{
+    font-size: 18px;
+}

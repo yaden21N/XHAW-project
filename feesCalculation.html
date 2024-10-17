@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Fees Calculation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styling.css">
+        <link rel="icon" type="image/x-icon" href="assets/favicon.jpg">
+    </head>
+    <body>
+       
+        <header>
+            <div class="HeaderInfo">
+                <figure>
+                    <img class="Logo" src="assets/logo.jpg" alt="Logo for enterprise" /> <!-- Sourcing an image-->
+                </figure>
+    
+                <div class="Title">
+                    <h1>Empowering The Nation</h1>
+                    <h3>Nation Builders by Precious Radebe </h3>
+                </div>
+            </div>
+            <!-- Navigation bar-->
+            <nav class="links">
+                <a href="homepage.html" target="_blank">Home Page</a>
+                <a href="summaries.html" target="_blank">Summary of Courses</a>
+                <a href="detailed6Month.html" target="_blank">6 Month Courses</a>
+                <a href="detailed6Week.html" target="_blank">6 Week Courses</a>
+                <a href="feesCalculation.html" target="_blank">Fees</a>
+                <a href="" target="_blank">Fees</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="pageTitle">
+                <h3>Calculate total fees </h3>
+            </div>
+            <h3 id="headingsH3">Select Courses:</h3>
+            <div class="courseContainer">
+            
+                
+
+                <div class="courseSelection">
+                <label id="course">
+                    <input type="checkbox" name="course" value="1500" data-course="First Aid"> First Aid (R1500)
+                </label>
+                <label id="course">
+                    <input type="checkbox" name="course" value="1500" data-course="Sewing"> Sewing (R1500)
+                </label>
+                <label id="course">
+                    <input type="checkbox" name="course" value="1500" data-course="Landscaping"> Landscaping (R1500)
+                </label>
+                <label id="course">
+                    <input type="checkbox" name="course" value="1500" data-course="Life Skills"> Life Skills (R1500)
+                </label>
+            </div>
+
+            <div class="courseSelection">
+                <label id="course">
+                    <input type="checkbox" name="course" value="750" data-course="Child Minding"> Child Minding (R750)
+                </label>
+                <label id="course">
+                    <input type="checkbox" name="course" value="750" data-course="Cooking"> Cooking (R750)
+                </label>
+                <label id="course">
+                    <input type="checkbox" name="course" value="750" data-course="Garden Maintenance"> Garden Maintenance (R750)
+                </label>
+
+            </div>
+        </div>
+        
+                <button type="button" onclick="calculateTotal()" id="button">Calculate Total</button>
+        
+                <h3 id="headingsH3">Total Quoted Fee: R<span id="totalFee">0.00</span></h3>
+                <p id="discountMessage"></p>
+
+
+                <div class="form">
+                    <h3 id="headingsH3"> For further enquiries :</h3>
+                    <form id="courseForm">
+                        <label for="name" id="formInput">Full Name:</label>
+                        <input type="text" id="name" name="name" required>
+                
+                        <label for="phone" id="formInput">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                
+                        <label for="email" id="formInput">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </form>
+                
+                </div>
+           
+
+        </main>
+
+        <footer>
+            <div class="footerText">
+                <p id="text">Copyright @2024 Empowering The Nation. All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
