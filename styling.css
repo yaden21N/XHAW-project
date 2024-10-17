@@ -372,3 +372,8 @@ input[type="email"] {
 #formInput{
     font-size: 18px;
 }
+
+#discountMessage{
+    margin-left: 5%;
+    font-size: 20px;
+}
