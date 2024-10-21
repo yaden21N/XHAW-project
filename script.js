@@ -37,3 +37,8 @@ function calculateTotal() {
     // Optional: Store the selected courses for generating an invoice later
     console.log('Selected Courses:', selectedCourses);
 }
+
+function submitForm() {
+    
+    alert("Your details have been submitted successfully!");
+}
